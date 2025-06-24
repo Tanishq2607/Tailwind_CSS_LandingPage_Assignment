@@ -42,7 +42,7 @@ export default function PopularDestination() {
             <p className="text-sm text-[#07AC9E] font-medium">Most Attractive</p>
             <div className="flex justify-between items-center flex-wrap gap-4">
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Popular Destination</h2>
-                <div className="flex gap-4 text-gray-600 text-sm">
+                <div className="flex gap-4 text-gray-900 text-sm">
                     <button className="px-4 py-1 bg-[#07AC9E] text-white rounded-lg cursor-pointer">Beach</button>
                     <button className="px-4 py-1 hover:text-teal-600 cursor-pointer">Waterfall</button>
                     <button className="px-4 py-1 hover:text-teal-600 cursor-pointer">Mountains</button>
@@ -57,7 +57,7 @@ export default function PopularDestination() {
                         </div>
                         <div className="p-4 space-y-3">
                             <div className="flex justify-between items-center">
-                                <h3 className="text-lg font-sans font-semibold">{item.title}</h3>
+                                <h3 className="text-lg font-sans font-semibold text-gray-900">{item.title}</h3>
                                 <div className="flex items-center gap-1">
                                     <Image src="/popularDestinationStar.png" alt="rating" width={14} height={14} />
                                     <span className="text-sm font-medium text-gray-700">4.8</span>
