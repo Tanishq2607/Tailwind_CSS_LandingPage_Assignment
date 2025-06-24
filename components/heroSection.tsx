@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function HeroSection() {
     return (
-        <section className="bg-[#FBFBEC] min-h-screen relative overflow-hidden px-15">
+        <section className="bg-[#FBFBEC] h-[600px] font-sans relative overflow-hidden px-15">
 
             {/* Airplane dotted line decoration */}
-            <div className="absolute top-10 left-70">
+            <div className="absolute top-10 left-80">
                 <Image
                     src="/herosectionplane.png"
                     alt="Airplane path decoration"
@@ -76,52 +76,6 @@ export default function HeroSection() {
                                 <p className="text-sm font-semibold text-gray-700">Explore</p>
                                 <p className="text-xs text-gray-500 w-[95px]">Every corner of the world with us</p>
                             </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                {/* Booking Form Section */}
-                <div className="mt-16 bg-white rounded-2xl shadow-lg p-8">
-                    <div className="grid md:grid-cols-4 gap-6">
-                        <div className="space-y-2">
-                            <label className="text-sm font-semibold text-gray-700">
-                                📍 Destination
-                            </label>
-                            <input
-                                type="text"
-                                placeholder="Search Location"
-                                className="w-full px-4 py-3 border border-gray-200 rounded-lg outline-none focus:border-orange-500"
-                            />
-                        </div>
-
-                        <div className="space-y-2">
-                            <label className="text-sm font-semibold text-gray-700">
-                                📅 Date
-                            </label>
-                            <input
-                                type="date"
-                                className="w-full px-4 py-3 border border-gray-200 rounded-lg outline-none focus:border-orange-500"
-                            />
-                        </div>
-
-                        <div className="space-y-2">
-                            <label className="text-sm font-semibold text-gray-700">
-                                👥 Guest
-                            </label>
-                            <select className="w-full px-4 py-3 border border-gray-200 rounded-lg outline-none focus:border-orange-500">
-                                <option>Number of guest</option>
-                                <option>1 Guest</option>
-                                <option>2 Guests</option>
-                                <option>3 Guests</option>
-                                <option>4+ Guests</option>
-                            </select>
-                        </div>
-
-                        <div className="flex items-end">
-                            <button className="w-full bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold">
-                                Explore Now
-                            </button>
                         </div>
                     </div>
                 </div>

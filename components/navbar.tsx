@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Navbar() {
     return (
-        <nav className="px-21 py-4 sticky top-0 z-[100] bg-[#FBFBEC]">
+        <nav className="px-21 py-4 sticky top-0 z-[100] font-sans bg-[#FBFBEC]">
             <div className="container mx-auto flex items-center justify-between">
                 {/* Logo Section */}
                 <div className="flex items-center hover:cursor-pointer">
