@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function SubscribeSection() {
     return (
-        <section className="bg-gray-100 py-9 px-4 mt-[50px] font-sans">
+        <section className="bg-[#F7F8FC] py-9 px-4 mt-[50px] font-sans">
 
-            <div className="relative bg-orange-500 rounded-2xl px-8 py-10 overflow-hidden shadow-lg max-w-5xl h-[300px] mx-auto">
+            <div className="relative bg-orange-500 rounded-2xl px-8 py-10 overflow-hidden shadow-lg max-w-[1070px] h-[300px] mx-auto">
 
                 <div className="absolute bottom-0 left-0 w-24 sm:w-80">
                     <Image src="/subscribeCircles.png" alt="Circles" width={560} height={120} className="object-contain" />

@@ -51,7 +51,10 @@ export default function PopularDestination() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
                 {destinations.map((item) => (
-                    <div key={item.id} className="bg-white rounded-xl shadow-sm overflow-hidden cursor-pointer hover:shadow-lg">
+                    <div 
+                    key={item.id} 
+                    className="bg-white rounded-xl shadow-sm overflow-hidden cursor-pointer hover:shadow-lg transform hover:scale-100 hover:-translate-y-2 transition-all duration-300 ease-in-out"
+                  >
                         <div className="h-48 relative">
                             <Image src={item.image} alt={item.title} fill className="object-cover " />
                         </div>

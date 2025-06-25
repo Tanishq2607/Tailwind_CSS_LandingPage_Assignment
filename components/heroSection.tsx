@@ -9,7 +9,7 @@ export default function HeroSection() {
           alt="Airplane path decoration"
           width={650}
           height={0}
-          className="object-contain"
+          className="object-contain w-[280px] sm:w-[320px] md:w-[350px] lg:w-[500px] h-auto"
         />
       </div>
 
@@ -21,7 +21,7 @@ export default function HeroSection() {
                 Save Journey
               </span>
 
-              <h1 className="text-3xl sm:text-4xl lg:text-[55px] font-bold text-gray-900 leading-tight">
+              <h1 className="text-3xl sm:text-4xl lg:text-[51px] font-bold text-gray-900 leading-tight">
                 Make Your <span className="text-orange-500">Holiday</span>
                 <br />
                 Memorable
@@ -38,13 +38,13 @@ export default function HeroSection() {
             </button>
           </div>
           <div className="flex-1 relative flex justify-center lg:justify-end mt-8 lg:mt-0">
-            <div className="relative bottom-0 lg:bottom-[50px] right-0 lg:right-[70px]">
+            <div className="relative bottom-0 lg:bottom-[50px] right-0 lg:right-[50px]">
               <Image
                 src="/herosectionboy.png"
                 alt="Happy traveler with luggage"
                 width={430}
                 height={500}
-                className="w-[280px] sm:w-[320px] md:w-[350px] lg:w-[430px] h-auto"
+                className="w-[280px] sm:w-[320px] md:w-[350px] lg:w-[380px] h-auto"
               />
               <div className="absolute bottom-6 lg:bottom-19 -left-1 lg:-left-3 transform -translate-x-1/2 translate-y-1/2 w-[120px] lg:w-[140px] bg-white shadow-lg rounded-lg flex items-center gap-1 lg:gap-2 px-2 lg:px-3 py-2">
                 <Image
@@ -58,19 +58,19 @@ export default function HeroSection() {
                   Best Tour Awards
                 </span>
               </div>
-              <div className="absolute top-16 lg:top-40 -right-3 lg:-right-6 transform translate-x-1/2 -translate-y-1/2 w-[160px] lg:w-[200px] bg-white shadow-lg rounded-lg flex items-center gap-1 lg:gap-2 px-3 lg:px-4 py-2">
+              <div className="absolute top-16 lg:top-35 -right-3 lg:-right-6 transform translate-x-1/2 -translate-y-1/2 w-[160px] lg:w-[200px] bg-white shadow-lg rounded-lg flex items-center gap-1 lg:gap-2 px-3 lg:px-4 py-2">
                 <Image
                   src="/herosectiongooglemaps.png"
                   alt="Explore the world"
                   width={45}
                   height={45}
-                  className="lg:w-[40px] lg:h-[40px]"
+                  className="lg:w-[30px] lg:h-[30px]"
                 />
                 <div className="flex flex-col">
                   <p className="text-xs lg:text-sm font-semibold text-gray-700">
                     Explore
                   </p>
-                  <p className="text-xs lg:text-sm text-gray-500">
+                  <p className="text-xs lg:text-[15px] text-gray-500">
                     Every corner of the world with us
                   </p>
                 </div>

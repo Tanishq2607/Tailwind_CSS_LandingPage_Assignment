@@ -14,10 +14,10 @@ export default function AboutUs() {
         </p>
 
         <div className="flex gap-4 mt-4">
-          <button className="w-10 h-10 border border-gray-300 rounded-full flex items-center justify-center text-gray-600 hover:bg-gray-200 transition">
+          <button className="w-10 h-10 border border-gray-300 rounded-full flex items-center justify-center text-gray-600 hover:bg-gray-200 cursor-pointer transition">
             &lt;
           </button>
-          <button className="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center hover:bg-orange-600 transition">
+          <button className="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center hover:bg-orange-600 cursor-pointer transition">
             &gt;
           </button>
         </div>
