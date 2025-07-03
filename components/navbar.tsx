@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <nav className="px-21 py-4 sticky top-0 z-[100] font-sans bg-[#FBFBEC]">
             <div className="container mx-auto flex items-center justify-between">
-                {/* Logo Section */}
+              
                 <div className="flex items-center hover:cursor-pointer">
                     <Image
                         src={'/logo.png'}
@@ -14,7 +14,7 @@ export default function Navbar() {
                     />
                 </div>
 
-                {/* Navigation Links */}
+               
                 <div className="hidden md:flex">
                     <ul className="flex items-center space-x-8">
                         <li>
@@ -44,8 +44,6 @@ export default function Navbar() {
                         </li>
                     </ul>
                 </div>
-
-                {/* Login Button */}
                 <div>
                     <button className="bg-[#FBFBEC] text-[#080707] px-10 py-2 rounded-lg border border-orange-500 hover:bg-orange-500 hover:text-white hover:cursor-pointer font-medium transition-colors duration-200">
                         LogIn
